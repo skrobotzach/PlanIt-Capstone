@@ -1,0 +1,145 @@
+.filters {
+    /* background-color: black; */
+    color: black;
+    /* height: 114px; */
+    padding:0;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.filters{
+  display: none;
+}
+
+
+
+  .filters .form-container{
+    width: 100vw;
+    height:100vh;
+    position: fixed;
+    z-index: 10;
+    top:0;
+    left:0;
+    background-color: rgba(0, 0, 0, 0.25);
+    /* display: none; */
+  }
+  
+  /* .filters form{
+    position: absolute;
+    vertical center
+    margin: auto;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    horizontal center
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 0 15px rgba(37, 37, 37,0.5);
+    text-align: left;
+  } */
+  
+  .filters .form-main{
+    padding: 20px;
+  
+  }
+  
+  .filters .form-container form input, .filters .form-container form select{
+    border-radius: 0;
+    border: none;
+    border-bottom:1px solid rgb(209, 204, 204);
+    color: black;
+  }
+  
+  .filters .form-group{
+    text-align: left;
+  }
+  
+  .filters .form-container form button{
+    text-align: left;
+  }
+  
+  .filters .form-container form .form-title{
+    padding-left: 20px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    background-color: rgb(95, 74, 74);
+    height: 50px;
+  }
+  
+  .filters .form-title h1{
+    line-height: 50px;
+    font-size:large;
+    color: white;
+  }
+  
+  
+  /* .filters .navbar-brand{
+    margin-right: 5px;
+    padding: 0;
+  }
+  .filters .navbar-brand img{
+    height: 50px;
+    width: 50px;
+  }
+  
+  .filters .app-name p{
+    line-height: 1.2;
+    color: black;
+    margin: 0;
+    font-weight: bolder;
+  }
+  
+  .filters .navbar  .navbar-collapse{
+    background-color: white;
+  }
+  .filters .dropdown{
+    margin-left: 20px;
+  }
+  
+  .filters .dropdown .dropdown-menu{
+    background-color: #343a40;
+    left: auto;
+    right: 0;
+  }
+  
+  .filters .dropdown .dropdown-menu a{
+    color: white;
+  }
+  
+  .filters .dropdown .dropdown-menu a:hover{
+    background-color:black;
+  
+    /* text-decoration: white underline; 
+  }
+  */
+
+
+.filters .react-datepicker-wrapper{
+  width: 100%;
+  height: 100%;
+}
+
+#multiselectContainerReact > div:first-child{
+  padding: 0;
+}
+.filters .searchBox{
+  padding: .375rem .75rem;
+  margin: 0;
+}
+
+.filters .apply-button{
+  margin-top: 32px;
+}
+
+.filters{
+  text-align: right;
+}
+
+.filters .toggle-button{
+  margin: 5px;
+}

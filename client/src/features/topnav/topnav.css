@@ -1,0 +1,99 @@
+/* .top-nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+} */
+
+.top-nav nav{
+  /* background-color: black; */
+  height: 50px;
+  padding:0;
+  margin-bottom: 0;
+}
+
+.top-nav .navbar-brand{
+  margin-right: 5px;
+  padding: 0;
+}
+.top-nav .navbar-brand img{
+  height: 50px;
+  width: 50px;
+}
+
+.top-nav .app-name p{
+  line-height: 1.2;
+  color: white;
+  margin: 0;
+  font-weight: bolder;
+}
+
+.top-nav .navbar  .navbar-collapse{
+  background-color:#343a40;
+}
+.top-nav .dropdown{
+  margin-left: 20px;
+}
+
+.top-nav .dropdown .dropdown-menu{
+  background-color: #343a40;
+  left: auto;
+  right: 0;
+}
+
+.top-nav .dropdown .dropdown-menu a{
+  color: white;
+}
+
+.top-nav .dropdown .dropdown-menu a:hover{
+  background-color:black;
+
+  /* text-decoration: white underline; */
+}
+/* .top-nav .nav-jobs{
+  margin-right: 20px;
+} */
+
+
+.top-nav .dropdown .nav-link{
+  /* color: white; */
+  font-weight: bold;
+}
+
+/*Dropdown menu item active style*/
+.top-nav .dropdown-item.active{
+  background-color:#343a40;
+  color:white;;
+}
+
+.top-nav .dropdown .nav-link:hover{
+  color: white;
+  /* text-shadow: 3px 3px 5px white; */
+}
+
+/* .top-nav .navbar-light .navbar-nav .nav-link:focus,
+
+.top-nav .navbar-light .navbar-nav .show>.nav-link {
+  color: white;
+} */
+
+.toggle-button {
+  margin: 5px;
+}
+
+
+@media only screen and (max-device-width: 400px) {
+  .top-nav .dropdown {
+    margin-left: 0;
+}
+  .top-nav .dropdown .dropdown-menu{
+    left: 0;
+  }
+  .dropdown-menu{
+    text-align: center;
+  }
+  /* .dropdown-menu a{
+    width: 100%;
+  } */
+
+}

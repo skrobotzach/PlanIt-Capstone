@@ -1,0 +1,19 @@
+{
+  "name": "slackbot",
+  "version": "1.0.0",
+  "description": "Use planit from slack",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/rtm-api": "^5.0.5",
+    "@slack/web-api": "^5.12.0",
+    "esm": "^3.2.25",
+    "g": "^2.0.1",
+    "node-fetch": "^2.6.1",
+    "slackbots": "^1.2.0"
+  }
+}

@@ -1,0 +1,114 @@
+.board{
+  /* height:100vh-100px; */
+  overflow: auto;
+  white-space: nowrap;
+  margin-top: 50px;
+  background-color: white;
+}
+
+.board-row{
+  width: fit-content;
+  position: relative;
+  display: flex;
+  white-space: normal;
+}
+
+.cell, .employee-name{
+  background-color:white;
+  border:0.5px solid black;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  /*flex:1 1 0; */
+}
+
+.cell-overlay {
+  opacity: 0.7;
+  background-color: #a7a7a7;
+  position:absolute;
+  width: 100px;
+  height: 0;
+}
+
+.employee-cell{
+  background-color:rgb(206, 234, 238);
+  position: sticky;
+  left: 0;
+  width: 100px;
+}
+.date-cell{
+  font-size: large;
+}
+/* <<<<<<< Updated upstream */
+.projectTile {
+  /* flex-grow: 1; */
+  margin: 1px;}
+/* ======= */
+.projectTile { /* temporary */
+
+  border-radius: 10%;
+}
+.projectTile:hover{
+  opacity: 0.8;
+}
+
+
+.projectTileSold {
+  margin: 1px;}
+.projectTileSold { 
+  background: linear-gradient(45deg,
+  rgba(0, 0, 0, 0) 50%, 
+  white 50%, white 60%, 
+  rgba(0, 0, 0, 0) 50%
+  );
+  background-size: 0.5em 0.5em;
+  border-radius: 10%;
+}
+.projectTileSold:hover{
+  opacity: 0.8;
+}
+
+.popup {
+  background-color: white;
+  border-radius: 5%;
+  margin-left: 0;
+  padding: 10px;
+  text-align: left;
+  width: auto;
+  height: auto;
+  /* border: 2px solid cornflowerblue; */
+  box-shadow: 0 0 8px black;
+  }
+
+
+.date-header{
+  position: sticky;
+  top: 0;
+}
+
+
+@media only screen and (max-device-width: 1000px) {
+
+  .cell {
+      width: 40px;
+      height:45px;
+  }
+  .date-cell{
+  font-size: 13px;
+  }
+  .employee-cell{
+    font-size: 13px;
+    width: 80px;
+  }
+
+  .employee-name{
+    width: 45px;
+  }
+
+  .board{
+    background-color: red;
+  }
+
+}
+
